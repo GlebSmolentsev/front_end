@@ -17,3 +17,21 @@ img{
 div{
     margin: 100px 0px 0px 0px;
 }
+
+/* Header */
+
+.header{
+    background-color: aquaead;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* First Screen */
+
+.first-screen{
+    background-color: darkmagenta;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
