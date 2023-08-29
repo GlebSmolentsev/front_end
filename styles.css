@@ -75,13 +75,13 @@ img{
 /* First Screen */
 
 .first-screen{
-    background-color: darkmagenta;
+    background-color: #252527;
 }
 
 
 /* Skills */
 .skills{
-    background-color: darkorange;
+    background-color: #1f1f20;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -95,7 +95,7 @@ img{
 /* Resume */
 
 .resume{
-    background-color: greenyellow;
+    background-color: #252527;
 
     
 }
@@ -103,7 +103,7 @@ img{
 /* Works */
 
 .works{
-    background-color: mediumvioletred;
+    background-color: #1f1f20;
 
     
 }
@@ -113,7 +113,7 @@ img{
 .contacts{
     color: brown;
 
-    background-color: mediumblue;
+    background-color: #252527; 
 
 
 }
