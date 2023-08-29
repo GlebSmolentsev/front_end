@@ -1,3 +1,32 @@
+
+
+/* reset styles */
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* 
+color text main - #fff
+color text decor - #4f93e5
+background color one - #252527
+background color two - #1f1f20
+*/
+
+/* base styles */
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
 p{
     color: crimson;
 }
@@ -14,44 +43,61 @@ img{
     width: 400px;
     border-radius: 50px 20px 10px 5px;
 }
-div{
-    margin: 100px 0px 0px 0px;
-}
 
 /* Header */
-
 .header{
-    background-color:green;
-
-    max-width: 800px;
-    margin: 0 auto;
+    background-color: #252527;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
+/* Header menu */
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+.header-menu__link{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-menu__link:hover {
+    color: #4f93e5;
+    transition: 300ms;
+}
+
+
 
 /* First Screen */
 
 .first-screen{
     background-color: darkmagenta;
-
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-/* Resume */
 
+/* Skills */
 .skills{
     background-color: darkorange;
-
-    max-width: 800px;
-    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.skills__title{
+    text-align: center;
+}
+
+
 
 /* Resume */
 
 .resume{
     background-color: greenyellow;
 
-    max-width: 800px;
-    margin: 0 auto;
+    
 }
 
 /* Works */
@@ -59,8 +105,7 @@ div{
 .works{
     background-color: mediumvioletred;
 
-    max-width: 800px;
-    margin: 0 auto;
+    
 }
 
 /*  Contacts */
@@ -70,6 +115,5 @@ div{
 
     background-color: mediumblue;
 
-max-width: 800px;
-margin: 0 auto;
+
 }
