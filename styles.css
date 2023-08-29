@@ -21,7 +21,7 @@ div{
 /* Header */
 
 .header{
-    background-color: aquaead;
+    background-color:green;
 
     max-width: 800px;
     margin: 0 auto;
@@ -34,4 +34,42 @@ div{
 
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Resume */
+
+.skills{
+    background-color: darkorange;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Resume */
+
+.resume{
+    background-color: greenyellow;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Works */
+
+.works{
+    background-color: mediumvioletred;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*  Contacts */
+
+.contacts{
+    color: brown;
+
+    background-color: mediumblue;
+
+max-width: 800px;
+margin: 0 auto;
 }
