@@ -76,6 +76,12 @@ img{
 
 .first-screen{
     background-color: #252527;
+    color: #fff;
+    display: flex;
+}
+
+.first-screen__title{
+    text-align: center;
 }
 
 
@@ -84,6 +90,7 @@ img{
     background-color: #1f1f20;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #fff;
 }
 
 .skills__title{
@@ -96,24 +103,36 @@ img{
 
 .resume{
     background-color: #252527;
+    color: #fff;
 
-    
+}
+
+.resume__title{
+    text-align: center;
 }
 
 /* Works */
 
 .works{
     background-color: #1f1f20;
+    color: #fff;
 
-    
+}
+
+.works__title{
+    text-align: center;
 }
 
 /*  Contacts */
 
 .contacts{
-    color: brown;
+    color: #fff;
 
     background-color: #252527; 
 
 
+}
+
+.contacts__title{
+    text-align: center;
 }
