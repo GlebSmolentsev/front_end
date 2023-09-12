@@ -39,10 +39,7 @@ p{
 .text3{
     color: deeppink;
 }
-img{
-    width: 400px;
-    border-radius: 50px 20px 10px 5px;
-}
+
 
 /* Header */
 .header{
@@ -66,7 +63,7 @@ img{
 }
 
 .header-menu__link:hover {
-    color: #4f93e5;
+    color: crimson;
     transition: 300ms;
 }
 
@@ -77,13 +74,44 @@ img{
 .first-screen{
     background-color: #252527;
     color: #fff;
+    padding: 50px 0;
+}
+
+.first-screen__items{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.first-screen__title{
-    text-align: center;
+.first-screen__info p{
+    font-size: 16px;
+    color: #fff;
 }
 
+.first-screen__info h1{
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.first-screen__info h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: crimson;
+    margin-top: 10px;
+}
+
+.first-screen__image{
+    border: 6px solid crimson;
+    width: 400px;
+    height: 270px;
+   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
 
 /* Skills */
 .skills{
@@ -95,6 +123,14 @@ img{
 
 .skills__title{
     text-align: center;
+}
+
+
+.skills__item{
+    width: 200px;
+    height: 250px;
+    background-color: darkorange;
+    margin-bottom: 10px;
 }
 
 
