@@ -129,11 +129,18 @@ img{
 .skills__item{
     width: 200px;
     height: 250px;
-    background-color: darkorange;
+    background-color:#252527;
     margin-bottom: 10px;
+    
 }
 
+.skills__items{
+    display: flex;
+}
 
+.skills__romb{
+   
+}
 
 /* Resume */
 
