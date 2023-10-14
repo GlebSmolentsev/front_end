@@ -21,6 +21,10 @@ body{
 }
 
 
+section{
+    padding: 100px 0;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
@@ -46,8 +50,14 @@ p{
 /* Header */
 .header{
     background-color: #252527;
-    padding-top: 25px;
-    padding-bottom: 25px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 /* Header menu */
@@ -58,13 +68,14 @@ p{
 }
 
 
-.header-menu__link{
+.header-menu__link a{
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.header-menu__link:hover {
+.header-menu__link:hover a{
     color: crimson;
     transition: 300ms;
 }
@@ -107,12 +118,17 @@ p{
     border: 6px solid #dc143c;
     width: 400px;
     height: 270px;
-   
+   position: relative;
+    z-index: 1;
 }
 
 img{
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
 }
 
 /* Skills */
@@ -264,4 +280,34 @@ img{
     height: 2px;
     background-color: crimson;
     margin: 15px auto 0 auto;
+}
+
+
+
+.footer{
+    padding: 400px 0;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(11, 11, 11);
+    position: fixed;
+    bottom:25px;
+    right: 25px;
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+    transform: rotate(180deg);
+
+    opacity: 0.6;
+    
+}
+
+.arrow:hover{
+    cursor: pointer;
+    opacity: 1;
 }
