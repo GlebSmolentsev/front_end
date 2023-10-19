@@ -7,6 +7,11 @@
    box-sizing: border-box;
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* 
 color text main - #fff
 color text decor - #4f93e5
@@ -122,13 +127,12 @@ p{
     z-index: 1;
 }
 
-img{
+.first-screen__image img{
     width: 100%;
     height: 100%;
     position: absolute;
     top: 20px;
     right: 20px;
-
 }
 
 /* Skills */
@@ -285,9 +289,48 @@ img{
 
 
 .footer{
-    padding: 400px 0;
+    padding: 40px 0;
+    background-color: #1f1f20;
+    
+
 }
 
+.footer__lastname{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-links__icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer-links__icon:hover{
+    box-shadow: 0 0 3px 3px #dc143c;
+    transition: 400ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 .arrow{
     width: 30px;
     height: 30px;
