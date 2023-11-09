@@ -1,5 +1,22 @@
 
 
+
+.target-item{
+    font-size: 40px;
+    color: #fff;
+}
+
+
+.target-item{
+    width: 700px;
+    overflow: hidden;
+}
+
+.array-btn button {
+    padding: 5px 10px;
+    margin-right: 30px;
+}
+
 /* reset styles */
 *{
    margin: 0; 
