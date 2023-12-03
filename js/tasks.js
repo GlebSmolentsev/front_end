@@ -66,12 +66,66 @@
 //----------
 // метод №3
 // let str = 'заказ'
-// console.log(str === str.split('').reverse().join(''));
-
-
+// console.log(str === str.split("").reverse().join(""))
 
 
 // Task #2
 // Как сгенерировать массив чисел? (generating an array of numbers)
+
+// цикл №1
+// 1 создание переменной (i)
+// 2. создаем условие
+// 3. увеличение переменной(i)
+// let count = 0
+// for (let i = 0; i < 10; i++){
+// 	count = count + 1
+// }
+// console.log(count);
+
+// цикл №2 while
+// let count = 0
+// while (count < 10) {
+// 	count++
+// }
+// console.log(count);
+
+// цикл №2 while c break
+// let count = 0
+// while (true) {
+// 	count++
+// 	console.log(count);
+// 	if (count > 10) {
+// 		break
+// 	}
+// }
+
+// рекурсия №3
+// let count = 0
+// function recursion() {
+// 	// console.log('Hello');
+// 	count = count + 1
+// 	if (count >= 10) {
+// 		return
+// 	}
+// 	recursion()
+// }
+// recursion()
+
+
+// console.log(count);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

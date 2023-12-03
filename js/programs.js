@@ -1,4 +1,4 @@
-console.log('Prog');
+// console.log('Prog');
 
 
 
@@ -50,7 +50,7 @@ btn40.addEventListener('click', function () {
 	targetItem.innerHTML = arrayNumbers
 })
 
-console.log(targetItem);
+// console.log(targetItem);
 
 
 
