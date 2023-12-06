@@ -20,3 +20,4 @@ let res = num1 + num2
 //     return a + b
 // }
 // console.log( sum(10,500))
+

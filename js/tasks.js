@@ -114,16 +114,33 @@
 
 // console.log(count);
 
+// let arr = []
+// for (let i = 0; i < 10; i++){
+// 		arr.push(`Hello ${i}`)
+// }
+// console.log(arr);
+
+// let arr = ['Hello', 3, 8, 'как дела?', 4, true]
+// let i = 2
+// console.log(arr[i]);
+// for (let i = 0; i < 5; i++) {
+// 	if (arr[i] === 8) {
+// 		console.log('да 8 есть в массиве');
+// 	}
+// }
 
 
 
 
 
-
-
-
-
-
+// // alert("Hello");
+// let age = prompt("Вам есть 18?", '');
+// console.log(age)
+// if (age.toLowerCase() === 'да') {
+// 	console.log('круто, вам есть 18!!!');
+// } else {
+// 	console.log('ужас');
+// }
 
 
 

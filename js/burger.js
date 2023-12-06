@@ -1,7 +1,6 @@
 console.log('burger')
 
 
-
 let burgerWrap = document.querySelector('.menu-burger__button')
 
 let burgerLinksWrap = document.querySelector('.menu-burger__links')

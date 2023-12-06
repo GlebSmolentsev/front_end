@@ -193,6 +193,11 @@ p{
     background-color: #fff;
     opacity: 0.7;
     list-style: none;
+    
+}
+.menu-burger__link{
+    margin-bottom: 10px;
+    font-size: 40px;
 }
 
 .menu-burger__links.active{
