@@ -43,25 +43,25 @@
                     <div></div>
                 </div>
                 <div class="menu-burger__wrap">
-                        <ol class="menu-burger__links">
-                            <li class="menu-burger__link">
-                                <a href="#home">Home</a>
-                            </li>
-                            <li class="menu-burger__link">
-                                <a href="#skills"> Skills</a>
-                            <li class="menu-burger__link">
-                                <a href="#resume">Resume</a>
-                            </li>
-                            <li class="menu-burger__link">
-                                <a href="#works">Works</a>
-                            </li>
-                            <li class="menu-burger__link">
-                                <a href="#contacts">Contacts</a>
-                            </li>
-                            <li class="menu-burger__link">
-                                <a href="/test.html">Test</a>
-                            </li>
-                        </ol>
+                    <ol class="menu-burger__links">
+                        <li class="menu-burger__link">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="menu-burger__link">
+                            <a href="#skills"> Skills</a>
+                        <li class="menu-burger__link">
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li class="menu-burger__link">
+                            <a href="#works">Works</a>
+                        </li>
+                        <li class="menu-burger__link">
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                        <li class="menu-burger__link">
+                            <a href="/test.html">Test</a>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -97,9 +97,9 @@
             <div class="container">
 
                 <!-- --- -->
-                <h2 class="skills-title">
+                <h2 class="title skills-title">
                     Skills
-                    <div class="skills-title__decor"></div>
+                    <div class="title-decor skills-title__decor"></div>
                 </h2>
                 <!-- --- -->
 
@@ -167,8 +167,8 @@
         </section>
         <section id="resume" class="resume">
             <div class="container">
-                <h2 class="resume__title">Resume
-                    <div class="resume-title__decor"></div>
+                <h2 class="title">Resume
+                    <div class="title-decor"></div>
                 </h2>
                 <p>Меня зовут Глеб и я начинающий программист. Мне 14 лет. День рождение 11 ноября. Живу в Балашихе
                     (Московская оюлость) уже 3 года.
@@ -181,23 +181,25 @@
         </section>
         <section id="works" class="works">
             <div class="container">
-                <h2 class="works__title">Works
-                    <div class="works-title__decor"></div>
+
+                <h2 class="title works__title">Works
+                    <div class="title-decor"></div>
                 </h2>
+
                 <div class="works__items">
 
 
                     <div class="works__item">
-                   
+
                         <div class="works__image">
                             <img src="img/test__img.jpeg" alt="">
                             <div class="works__info">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, delectus!</p>
-                        <button>Button</button>
-        
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, delectus!</p>
+                                <button>Button</button>
+
                             </div>
                         </div>
-                        
+
                         <h3>Lorem ipsum dolor sit amet.</h3>
                     </div>
 
@@ -207,7 +209,7 @@
 
                             <div class="works__info">
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, delectus!</p>
-                            <button>Button</button>
+                                <button>Button</button>
                             </div>
 
                         </div>
@@ -217,42 +219,56 @@
 
                     <div class="works__item">
                         <div class="works__image">
-                            <img src="img/Кот в унитазе.jpg" alt=""> 
+                            <img src="img/Кот в унитазе.jpg" alt="">
                         </div>
                     </div>
-    
+
                     <div class="works__item">
                         <div class="works__image">
-                            <img src="img/Математичка.jpg" alt=""> 
+                            <img src="img/Математичка.jpg" alt="">
                         </div>
                         <h3>Злая математичка Л.И.</h3>
                     </div>
-    
+
                     <div class="works__item">
                         <div class="works__image">
-                            <img src="img/Кит.jpg" alt=""> 
+                            <img src="img/Кит.jpg" alt="">
                         </div>
                         <h3>Синий кит</h3>
                     </div>
-    
+
                     <div class="works__item">
                         <div class="works__image">
-                            <img src="img/Принцесса.jpg" alt=""> 
+                            <img src="img/Принцесса.jpg" alt="">
                         </div>
                         <h3>Самая прекрасная в мире принцесса !!!!!</h3>
                     </div>
-    
 
-                    
+
+
                 </div>
             </div>
         </section>
         <section id="contacts" class="contacts">
             <div class="container">
-                <h2 class="contacts__title">Contacts
-                    <div class="contact-title__decor"></div>
+
+                <h2 class="title">Contacts
+                    <div class="title-decor"></div>
                 </h2>
-                <p>8 800 555 35 35 </p>
+
+                <div class="contacts__items">
+                    <form>
+                        <div class="contacts__item">
+                            <input id="name" name="name" type="text" placeholder="Name" class="" value="">
+                        </div>
+                        <div class="contacts__item">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="" value="">
+                        </div>
+                        <div class="contacts__item">
+                            <textarea id="message" name="message" placeholder="Your message" class=""></textarea>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
@@ -301,4 +317,3 @@
 </body>
 
 </html>
-

@@ -1,12 +1,46 @@
 
 
 
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* BASE STYLE */
+
+
+/* TITLE */
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.title-decor{
+    width: 100px;
+    height: 2px;
+    background-color: crimson;
+    margin: 15px auto 0 auto;
+}
+
+
+
+/* --- */
+
 
 body{
     /* overflow: hidden; */
 }
 
 
+
+/* *** */
 .target-item{
     font-size: 40px;
     color: #fff;
@@ -23,12 +57,8 @@ body{
     margin-right: 30px;
 }
 
-/* reset styles */
-*{
-   margin: 0; 
-   padding: 0;
-   box-sizing: border-box;
-}
+
+
 
 
 html{
@@ -229,7 +259,6 @@ p{
 }
 
 
-
 .first-screen__items{
     display: flex;
     justify-content: space-between;
@@ -313,18 +342,11 @@ p{
 
 /* ----- */
 .skills-title{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size:36px;
-    font-weight: 600;
-    letter-spacing: 2px;
+ 
 }
 
 .skills-title__decor{
-    width: 100px;
-    height: 2px;
-    background-color: crimson;
-    margin: 15px auto 0 auto;
+
 }
 /* ----- */
 
@@ -407,20 +429,9 @@ p{
 
 }
 
-.resume__title{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size:36px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
+.resume__title{}
 
-.resume-title__decor{
-    width: 100px;
-    height: 2px;
-    background-color: crimson;
-    margin: 15px auto 0 auto;
-}
+.resume-title__decor{}
 
 /* Works */
 
@@ -431,18 +442,11 @@ p{
 }
 
 .works__title{
-    text-align: center;
-    font-size:36px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+ color: crimson;
 }
 
 .works-title__decor{
-    width: 100px;
-    height: 2px;
-    background-color: crimson;
-    margin: 15px auto 0 auto;
+ 
 }
 
 .works__items{
@@ -511,16 +515,16 @@ p{
     object-fit: cover;
 }
 
+.works__info button {
+    background-color: hotpink;
+    padding: 10px 30px;
+}
+
 /*  Contacts */
 
 .contacts{
     color: #fff;
     background-color: #252527; 
-}
-
-.works__info button {
-    background-color: hotpink;
-    padding: 10px 30px;
 }
 
 .contacts__title{
@@ -538,7 +542,32 @@ p{
     margin: 15px auto 0 auto;
 }
 
+.contacts__items{
+    margin: 0 auto;
+    max-width: 450px;
+    
+}
+.contacts__item input, textarea{
+    width: 100%;
+   
+}
 
+
+.contacts__item input{
+    margin:0 0 5px 0 ;
+    background-color: #252527;
+    border: 1px solid #4a4a4a;
+    box-shadow: inset 0 0 2px 2px hsla(0,0%,60%,.11);
+    color: #dc143c;
+    font-size: 16px;
+    height: 32px;
+    letter-spacing: 1.5px;
+    padding: 0 15px;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+
+/* Footer */
 
 .footer{
     padding: 40px 0;
