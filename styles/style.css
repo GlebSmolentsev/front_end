@@ -516,7 +516,7 @@ p{
 }
 
 .works__info button {
-    background-color: hotpink;
+    background-color: rgb(208, 68, 68);
     padding: 10px 30px;
 }
 
@@ -565,6 +565,17 @@ p{
     padding: 0 15px;
     transition: all .3s ease-in-out;
     outline: none;
+}
+.contacts__item textarea{
+    max-width: 450px;
+    max-height: 400px;
+    min-width: 300px;
+    background-color: #252527;
+    border: 1px solid #4a4a4a;
+    color: #dc143c;
+    letter-spacing: 1.5px;
+    box-shadow: inset 0 0 2px 2px hsla(0,0%,60%,.11);
+    
 }
 
 /* Footer */
