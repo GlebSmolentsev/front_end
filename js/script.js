@@ -3,7 +3,7 @@
 
 let inputName = document.querySelector('.input-name')
 
-console.log(inputName)
+// console.log(inputName)
 
 
 let inputEmail = document.querySelector('.input-email')
@@ -15,32 +15,43 @@ let formButton = document.querySelector('.form-button')
 // let inputNameValue = document.querySelector('.input-name-value')
 
 
-let userName = null
+const userObj = {
+	name: null,
+	email: null,
+	text: null,
+}
 
-inputName.addEventListener('input', function (event) {
-	console.log(event)
-	// userName = event.target.value
-	// console.log(userName)
-})
+function nameData(event) {
+	userObj.name = event.target.value
+}
 
-let userEmail = null
+inputName.addEventListener('input', nameData)
 
-inputEmail.addEventListener('input', function(event) {
-    userEmail = event.target.value
-	console.log(userEmail)
-})
+function emailData(event) {
+	userObj.email = event.target.value
+}
+inputEmail.addEventListener('input', emailData)
 
 
 
-formButton.addEventListener('click', function () {
 
-	console.log(userName, 'Name')
-	console.log(userEmail, 'Email')
 
-})
+function onClick() {
+	console.log(userObj.name)
 
-console.log(userName, 'Name')
-console.log(userEmail, 'Email')
+	if (userObj.name) {
+		console.log(userObj)
+	} else {
+		console.log('Нет данных в name')
+	}
+
+}
+
+formButton.addEventListener('click', onClick)
+
+
+
+
 
 
 
