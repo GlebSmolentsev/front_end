@@ -558,6 +558,10 @@ p{
 
 }
 
+.contacts__item .error{
+    border:1px solid #dc143c; 
+}
+
 .contacts__item input, textarea{
     width: 100%;
    
