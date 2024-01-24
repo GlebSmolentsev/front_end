@@ -10,6 +10,8 @@ let inputEmail = document.querySelector('.input-email')
 
 let formButton = document.querySelector('.form-button')
 
+let textareaMessage = document.querySelector('.textarea-message')
+
 
 
 // let inputNameValue = document.querySelector('.input-name-value')
@@ -32,6 +34,10 @@ function emailData(event) {
 }
 inputEmail.addEventListener('input', emailData)
 
+function messageData(event) {
+	userObj.text = event.target.value
+}
+textareaMessage.addEventListener('input', messageData)
 
 
 
@@ -46,6 +52,8 @@ function onClick() {
 	}
 
 }
+
+
 
 formButton.addEventListener('click', onClick)
 
