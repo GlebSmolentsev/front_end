@@ -445,9 +445,7 @@ p{
  color: crimson;
 }
 
-.works-title__decor{
- 
-}
+
 
 .works__items{
     display: grid;
@@ -560,6 +558,24 @@ p{
 
 .contacts__item .error{
     border:1px solid #dc143c; 
+}
+
+.form-button{
+    color: #4a4a4a;
+    background-color: #dc143c;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    
+}
+
+.text-button{
+    margin: 7px 0 0 30px;
+   font-size: 15px; 
+   font-weight: 600;
+   letter-spacing: 1px;
 }
 
 .contacts__item input, textarea{
