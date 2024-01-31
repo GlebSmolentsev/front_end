@@ -568,7 +568,17 @@ p{
     margin: 0 auto;
     width: 100px;
     height: 30px;
-    
+
+}
+
+.form-button{
+    opacity: 1;
+    transition: 1500ms;
+}
+
+.form-button.disabled {
+    opacity: 0;
+    transition: 500ms;
 }
 
 .text-button{
@@ -576,6 +586,7 @@ p{
    font-size: 15px; 
    font-weight: 600;
    letter-spacing: 1px;
+
 }
 
 .contacts__item input, textarea{
