@@ -1,28 +1,54 @@
 console.log('burger')
 
 
-let burgerWrap = document.querySelector('.menu-burger__button')
 
-let burgerLinksWrap = document.querySelector('.menu-burger__links')
-
+export function burgerMenu() { 
 
 
-let toggle = false
+	let body = document.querySelector('body')
+	let burgerWrap = document.querySelector('.menu-burger__button')
+	let burgerLinksWrap = document.querySelector('.menu-burger__links')
 
-burgerWrap.addEventListener('click', function () { 
-	if (toggle == false) { 
+	//*** menu links
 
-		burgerLinksWrap.classList.add('active')
+	let homeLink = document.querySelector('.home-link')
 
-		toggle = true
-	} else {
-		
-		burgerLinksWrap.classList.remove('active')
+	let contactsLink = document.querySelector('.contacts-link')
 
-		toggle = false
+
+	homeLink.addEventListener('click', onClickHandler)
+
+	contactsLink.addEventListener('click', onClickHandler)
+
+
+
+	let toggle = false
+
+	function onClickHandler() {
+
+		if (toggle == false) {
+
+			burgerLinksWrap.classList.add('active')
+			body.style.overflow = 'hidden'
+			toggle = true
+
+		} else {
+
+			burgerLinksWrap.classList.remove('active')
+			body.style.overflow = 'scroll'
+			toggle = false
+
+		}
+
 	}
 
-})
+
+ // Событие клика 
+	burgerWrap.addEventListener('click', onClickHandler)
+
+}
+
+
 
 
 

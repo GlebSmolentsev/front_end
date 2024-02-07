@@ -61,7 +61,9 @@ export function form() {
 
 		if (userObj.name && userObj.email) {
 			formButton.removeAttribute('disabled', 'true')
-			console.log(userObj);
+		
+			setLocalStorageData(userObj)
+
 		} else {
 			if (userObj.name) {
 			} else {
@@ -76,6 +78,18 @@ export function form() {
 	}
 
 
+
+	function setLocalStorageData(obj) { 
+		let jsonMy = JSON.stringify(obj)
+		localStorage.setItem('userData', jsonMy)
+	}
+
+
 	formButton.addEventListener('click', onClick)
 }
+
+
+
+
+
 
