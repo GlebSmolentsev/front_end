@@ -8,6 +8,7 @@ export function burgerMenu() {
 	let body = document.querySelector('body')
 	let burgerWrap = document.querySelector('.menu-burger__button')
 	let burgerLinksWrap = document.querySelector('.menu-burger__links')
+	
 
 	//*** menu links
 
@@ -31,16 +32,18 @@ export function burgerMenu() {
 			burgerLinksWrap.classList.add('active')
 			body.style.overflow = 'hidden'
 			toggle = true
-
+			burgerWrap.classList.add('active')
 		} else {
 
 			burgerLinksWrap.classList.remove('active')
 			body.style.overflow = 'scroll'
 			toggle = false
-
+			burgerWrap.classList.remove('active')
 		}
 
 	}
+
+
 
 
  // Событие клика 
