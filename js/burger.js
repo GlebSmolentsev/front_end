@@ -14,11 +14,19 @@ export function burgerMenu() {
 
 	let homeLink = document.querySelector('.home-link')
 
+	let skillsLink = document.querySelector('.skills-link')
+
+	let resumeLink = document.querySelector('.resume-link')
+
+	let worksLink = document.querySelector('.works-link')
+	
 	let contactsLink = document.querySelector('.contacts-link')
 
 
 	homeLink.addEventListener('click', onClickHandler)
-
+	skillsLink.addEventListener('click', onClickHandler)
+	resumeLink.addEventListener('click', onClickHandler)
+	worksLink.addEventListener('click', onClickHandler)
 	contactsLink.addEventListener('click', onClickHandler)
 
 
